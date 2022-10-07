@@ -4,17 +4,21 @@
   "description": "Javascript Implementation of blockchain",
   "main": "server.js",
   "scripts": {
-    "wallet": "electron desktop.js"
+    "wallet": "electron desktop.js",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "flupine",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.14.1",
     "crypto-js": "^3.1.9-1",
-    "electron": "^1.8.2",
+    "electron": "^19.0.15",
     "elliptic": "^6.4.0",
     "fs": "0.0.1-security",
     "p2p": "^0.10.2",
-    "p2p-node": "^0.1.1"
-  }
+    "p2p-node": "^0.1.1",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }

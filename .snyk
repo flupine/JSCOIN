@@ -1,0 +1,65 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - p2p > body-parser > debug:
+        patched: '2022-10-07T22:11:32.002Z'
+    - p2p > express > debug:
+        patched: '2022-10-07T22:11:32.002Z'
+    - p2p > express > finalhandler > debug:
+        patched: '2022-10-07T22:11:32.002Z'
+    - p2p > express > send > debug:
+        patched: '2022-10-07T22:11:32.002Z'
+    - p2p > express > serve-static > send > debug:
+        patched: '2022-10-07T22:11:32.002Z'
+  'npm:hoek:20180212':
+    - p2p > request > hawk > hoek:
+        patched: '2022-10-07T22:11:32.002Z'
+    - p2p > request > hawk > boom > hoek:
+        patched: '2022-10-07T22:11:32.002Z'
+    - p2p > request > hawk > sntp > hoek:
+        patched: '2022-10-07T22:11:32.002Z'
+    - p2p > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T22:11:32.002Z'
+  'npm:lodash:20180130':
+    - p2p > lodash:
+        patched: '2022-10-07T22:11:32.002Z'
+    - p2p > flaschenpost > lodash:
+        patched: '2022-10-07T22:11:32.002Z'
+  'npm:mime:20170907':
+    - p2p > express > send > mime:
+        patched: '2022-10-07T22:11:32.002Z'
+    - p2p > express > serve-static > send > mime:
+        patched: '2022-10-07T22:11:32.002Z'
+  'npm:moment:20160126':
+    - p2p > flaschenpost > moment:
+        patched: '2022-10-07T22:11:32.002Z'
+  'npm:ms:20170412':
+    - p2p > body-parser > debug > ms:
+        patched: '2022-10-07T22:11:32.002Z'
+    - p2p > express > debug > ms:
+        patched: '2022-10-07T22:11:32.002Z'
+    - p2p > express > send > ms:
+        patched: '2022-10-07T22:11:32.002Z'
+    - p2p > express > finalhandler > debug > ms:
+        patched: '2022-10-07T22:11:32.002Z'
+    - p2p > express > send > debug > ms:
+        patched: '2022-10-07T22:11:32.002Z'
+    - p2p > express > serve-static > send > ms:
+        patched: '2022-10-07T22:11:32.002Z'
+    - p2p > express > serve-static > send > debug > ms:
+        patched: '2022-10-07T22:11:32.002Z'
+  'npm:negotiator:20160616':
+    - p2p > express > accepts > negotiator:
+        patched: '2022-10-07T22:11:32.002Z'
+  'npm:request:20160119':
+    - p2p > request:
+        patched: '2022-10-07T22:11:32.002Z'
+  'npm:tough-cookie:20170905':
+    - p2p > request > tough-cookie:
+        patched: '2022-10-07T22:11:32.002Z'
+  'npm:tunnel-agent:20170305':
+    - p2p > request > tunnel-agent:
+        patched: '2022-10-07T22:11:32.002Z'
